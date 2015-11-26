@@ -22,7 +22,7 @@
     "url": "https://github.com/jimmyfortinx/gulp-app-build-tasks-examples/issues"
   },
   "homepage": "https://github.com/jimmyfortinx/gulp-app-build-tasks-examples",
-  "dependencies": {
+  "devDependencies": {
     "gulp-app-build-tasks": "https://github.com/jimmyfortinx/gulp-app-build-tasks.git"
   }
 }
