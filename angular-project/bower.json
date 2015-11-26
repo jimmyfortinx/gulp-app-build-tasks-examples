@@ -1,0 +1,24 @@
+{
+  "name": "angular-project",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jimmyfortinx/gulp-app-build-tasks-examples",
+  "authors": [
+    "Jimmy Fortin"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "~0.2.15"
+  }
+}
