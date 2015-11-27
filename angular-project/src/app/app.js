@@ -1,1 +1,1 @@
-angular.module('powerfulApp', []);
+angular.module('powerfulApp', ['ui.router']);

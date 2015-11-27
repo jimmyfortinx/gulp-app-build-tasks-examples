@@ -1,10 +1,10 @@
 angular.module('powerfulApp')
-    .config(function ($stateProvider) {
+    .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('main', {
                 url: '/',
-                templateUrl: 'app/main/main.html',
-                controller: 'MainController',
-                controllerAs: 'mainCtrl'
+                templateUrl: 'app/main/main.html'
             });
+            
+        $urlRouterProvider.otherwise('/');
     });
