@@ -1,9 +1,5 @@
 var gulp = require('gulp');
+var path = require('path');
+var nodeModulesPath = path.join(__dirname, 'node_modules');
 
-var options = {
-    angular: {
-        module: 'powerfulApp'
-    }
-};
-
-require('gulp-app-build-tasks')(options, gulp)
+require('gulp-app-build-tasks')(nodeModulesPath, gulp)
