@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var path = require('path');
-var nodeModulesPath = path.join(__dirname, 'node_modules');
+var config = require('./config');
 
-require('gulp-app-build-tasks')(nodeModulesPath, gulp)
+require('gulp-app-build-tasks')(config, gulp)
