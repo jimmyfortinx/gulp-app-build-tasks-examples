@@ -5,5 +5,6 @@ exports.angular = {
 }
 
 exports.paths = {
-    karmaConf: path.join(__dirname, 'karma.conf.js')
+    karmaConf: path.join(__dirname, 'karma.conf.js'),
+    protractorConf: path.join(__dirname, 'protractor.conf.js')
 }
