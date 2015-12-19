@@ -1,0 +1,35 @@
+{
+  "name": "simple-project",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jimmyfortinx/gulp-app-build-tasks-examples",
+  "authors": [
+    "Jimmy Fortin"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/fonts/glyphicons-halflings-regular.eot",
+        "dist/fonts/glyphicons-halflings-regular.svg",
+        "dist/fonts/glyphicons-halflings-regular.ttf",
+        "dist/fonts/glyphicons-halflings-regular.woff",
+        "dist/fonts/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "handlebars": "~4.0.5"
+  }
+}

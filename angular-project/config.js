@@ -1,10 +1,7 @@
-var path = require('path');
+// Userful only because for testing we are using npm link,
+// otherwise you can remove it
+exports.projectDirectory = __dirname;
 
 exports.angular = {
     module: "powerfulApp"
-}
-
-exports.paths = {
-    karmaConf: path.join(__dirname, 'karma.conf.js'),
-    protractorConf: path.join(__dirname, 'protractor.conf.js')
 }

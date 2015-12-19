@@ -1,7 +1,7 @@
 {
-  "name": "gulp-app-build-tasks-examples-angular",
+  "name": "gulp-app-build-tasks-examples-simple",
   "version": "0.0.1",
-  "description": "Angular example about the awesome project gulp-app-build-tasks.",
+  "description": "Simple examples about the awesome project gulp-app-build-tasks.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
