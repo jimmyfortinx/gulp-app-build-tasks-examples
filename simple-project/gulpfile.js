@@ -1,3 +1,5 @@
 var gulp = require('gulp');
+var gulpAppBuildTasks = require('gulp-app-build-tasks');
 
-require('gulp-app-build-tasks')(null, gulp)
+gulpAppBuildTasks.use(gulp);
+gulpAppBuildTasks.registerTasks();

@@ -1,4 +1,7 @@
 var gulp = require('gulp');
 var config = require('./config');
+var gulpAppBuildTasks = require('gulp-app-build-tasks');
 
-require('gulp-app-build-tasks')(config, gulp)
+gulpAppBuildTasks.use(gulp);
+gulpAppBuildTasks.configure(config);
+gulpAppBuildTasks.registerTasks();
