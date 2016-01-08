@@ -1,12 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var controller = require('./api.controller');
 
-router.get('/awesome-list', function (req, res) {
-    res.json([
-        { firstname: "John", lastname: "Smith" },
-        { firstname: "Peter", lastname: "Pan" },
-        { firstname: "Gino", lastname: "Chouinard" }
-    ]);
-});
+router.get('/awesome-list', controller.getAwesomeList);
 
 module.exports = router;
