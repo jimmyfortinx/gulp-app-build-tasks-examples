@@ -6,7 +6,6 @@
     "requireSemicolons": true,
     "requireParenthesesAroundIIFE": true,
     "maximumLineLength": 120,
-    "validateLineBreaks": "LF",
     "validateIndentation": 4,
     "disallowTrailingComma": true,
     "disallowUnusedParams": true,
